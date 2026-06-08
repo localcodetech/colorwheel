@@ -10,12 +10,9 @@ btn.addEventListener('click',  (e)=>{
     };
     console.log(ranHex)
 
-    const div1 = document.getElementById('div1')
-    div1.classList.add(`bg-[#${ranHex.join('')}]`)
-    div1.innerHTML = `#${ranHex.join('')}`
+    const div1 = document.querySelector('#div1')
     
 
-    const div2 = document.getElementById('div2');
-    div1.style.color = '#5533aa'
+    
     
 })
